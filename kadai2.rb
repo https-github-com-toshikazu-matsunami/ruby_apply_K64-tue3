@@ -16,8 +16,8 @@ menu1 = Menu.new('Phở', 30_000)
 menu2 = Menu.new('Bún chả', 40_000)
 menu3 = Menu.new('Bánh mì', 20_000)
 
-menu = [menu1, menu2, menu3]
+menus = [menu1, menu2, menu3]
 
-menu.each do |e|
+menus.each do |e|
   e.print_menu
 end
