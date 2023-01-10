@@ -24,17 +24,6 @@ class Bingo
         puts "  #{format('%2s',row[0])}  |  #{format('%2s',row[1])}  |  #{format('%2s',row[2])}  |  #{format('%2s',row[3])}  |  #{format('%2s',row[4])}  "
     end
   end    
-
-  
-=begin
-    5.times do |j|
-      [b,i,n,g,o].each do |column|
-        card += column[j].to_s.rjust(2) + "|"
-      end
-      card[-3..-1] = "\n"
-    end
-=end
-
   
 end
 
